@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Cars | DREAMCAR Rent A Car Dubai</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span>Car rental with no deposit</span>
+      <a href="tel:+971558009990" class="top-phone"><i class="fas fa-phone"></i> +971 558 009 990</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">&#x1F511;</div>
+        <div class="logo-text">
+          <span class="logo-title">DREAMCAR</span>
+          <span class="logo-sub">RENT A CAR</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="all-cars.html" class="nav-link active-link">All Cars</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link">Car Types <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="index.html">Luxury</a>
+            <a href="index.html">Sports</a>
+            <a href="index.html">SUV</a>
+            <a href="index.html">Economy</a>
+            <a href="index.html">Exotic</a>
+            <a href="index.html">Convertible</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link">Car Brands <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu brands-dropdown">
+            <a href="index.html">Ferrari</a>
+            <a href="index.html">Lamborghini</a>
+            <a href="index.html">Bentley</a>
+            <a href="index.html">Rolls Royce</a>
+            <a href="index.html">Porsche</a>
+            <a href="index.html">Mercedes</a>
+            <a href="index.html">Land Rover</a>
+            <a href="index.html">Audi</a>
+            <a href="index.html">BMW</a>
+            <a href="index.html">McLaren</a>
+          </div>
+        </div>
+        <a href="daily-offers.html" class="nav-link">Daily Offers</a>
+        <a href="index.html#rental-prices" class="nav-link">Rental Prices</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+      <div class="header-right">
+        <a href="#" class="lang-switch"><span class="flag">🇦🇪</span> العربية</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">HOME</a> / <span>All Cars</span>
+      </div>
+      <h1 class="page-title">All Cars</h1>
+      <p class="page-description">Explore a wide range of cars, from economy and SUVs to luxury and sports cars. Choose the perfect car based on your budget and travel needs, with flexible daily, weekly, and monthly rental options.</p>
+    </div>
+  </section>
+
+  <!-- Filter Badges -->
+  <section class="filter-section">
+    <div class="container">
+      <div class="filter-badges">
+        <div class="filter-badge">
+          <i class="fas fa-clock"></i>
+          <div>
+            <strong>24/7 Service</strong>
+            <small>Best Support</small>
+          </div>
+        </div>
+        <div class="filter-badge">
+          <i class="fas fa-ban"></i>
+          <div>
+            <strong>No Deposit</strong>
+            <small>Confirm immediately</small>
+          </div>
+        </div>
+        <div class="filter-badge">
+          <i class="fas fa-truck"></i>
+          <div>
+            <strong>Fast Delivery</strong>
+            <small>Anywhere in Dubai</small>
+          </div>
+        </div>
+        <div class="filter-badge">
+          <i class="fas fa-car-side"></i>
+          <div>
+            <strong>Largest Fleet</strong>
+            <small>Clean & inspected</small>
+          </div>
+        </div>
+        <div class="filter-badge">
+          <i class="fas fa-tag"></i>
+          <div>
+            <strong>Lowest Prices</strong>
+            <small>No hidden costs</small>
+          </div>
+        </div>
+      </div>
+      <div class="filter-toggles">
+        <button class="toggle-btn active" data-filter="brands">Car Brands</button>
+        <button class="toggle-btn" data-filter="types">Car Types</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cars Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="car-grid allcars-grid">
+        <!-- Row 1 -->
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('images/Jetour-Shanhai-T2-Picture-12.webp')"></div>
+          <div class="car-info">
+            <h3>2026 Nissan Patrol</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 499</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Nissan Patrol</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 349</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('images/Jetour-Shanhai-T2-Picture-12.webp')"></div>
+          <div class="car-info">
+            <h3>Nissan Patrol</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 349</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Nissan Patrol</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 349</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('images/Jetour-Shanhai-T2-Picture-12.webp')"></div>
+          <div class="car-info">
+            <h3>Nissan Super Safari</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 549</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Cadillac Escalade</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 899</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Cadillac Escalade</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 349</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Chevrolet Tahoe</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 349</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Chevrolet Corvette Convertible</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 1,599</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <!-- Row 4 -->
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>GMC Yukon</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 399</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>GMC Yukon</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 399</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Fiat 500 Convertible</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 189</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <!-- Row 5 -->
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=400&h=260&fit=crop')"></div>
+          <div class="car-info">
+            <h3>Fiat 500 Convertible</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 189</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('images/Jetour-Shanhai-T2-Picture-12.webp')"></div>
+          <div class="car-info">
+            <h3>Jetour T2</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 299</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('images/Jetour-Shanhai-T2-Picture-12.webp')"></div>
+          <div class="car-info">
+            <h3>Jetour T2</h3>
+            <p class="price-note">Prices are Inclusive of Vat & Deposit Fee</p>
+            <div class="price-tabs">
+              <button class="price-tab active">Daily</button>
+              <button class="price-tab">Weekly</button>
+              <button class="price-tab">Monthly</button>
+            </div>
+            <div class="price-row">
+              <span class="price">AED 299</span>
+              <span class="ask-now">Ask Now</span>
+              <span class="ask-now">Ask Now</span>
+            </div>
+            <div class="car-actions">
+              <a href="#" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="#" class="btn btn-book">Book Now</a>
+              <a href="#" class="btn btn-call"><i class="fas fa-phone"></i> Call us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <div class="logo-icon">&#x1F511;</div>
+            <div class="logo-text">
+              <span class="logo-title">MASTERKEY</span>
+              <span class="logo-sub">RENT A CAR</span>
+            </div>
+          </div>
+          <ul class="footer-links">
+            <li><a href="all-cars.html">Our cars</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="index.html#rental-prices">Rental Prices</a></li>
+            <li><a href="index.html">Our Privacy Policy</a></li>
+            <li><a href="index.html">Rental policy</a></li>
+            <li><a href="index.html">Refundable policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Car Types</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Luxury</a></li>
+            <li><a href="index.html">Sports</a></li>
+            <li><a href="index.html">SUV</a></li>
+            <li><a href="index.html">Economy</a></li>
+            <li><a href="index.html">Exotic</a></li>
+            <li><a href="index.html">Convertible</a></li>
+            <li><a href="index.html">Weekly Car Rental</a></li>
+            <li><a href="index.html">Monthly Car Rental</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Inquiries & Support</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> <a href="tel:+971558009990">+971 558 009 990</a></li>
+            <li><i class="fab fa-whatsapp"></i> <a href="tel:+971581073598">+971 581 073 598</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@mkrentacar.com">info@mkrentacar.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> 39 Al Rasaas Rd- Al Quoz, Dubai</li>
+            <li><i class="fas fa-clock"></i> 24/7 service</li>
+          </ul>
+        </div>
+        <div class="footer-col footer-map">
+          <div class="map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.5!2d55.24!3d25.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDEwJzEyLjAiTiA1NcKwMTQnMjQuMCJF!5e0!3m2!1sen!2sae!4v1" width="100%" height="200" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="footer-brands">
+        <h4>Brands</h4>
+        <div class="brand-tags">
+          <a href="index.html">Ferrari</a><a href="index.html">Lamborghini</a><a href="index.html">Bentley</a><a href="index.html">Rolls Royce</a><a href="index.html">Porsche</a><a href="index.html">Mercedes</a><a href="index.html">Land Rover</a><a href="index.html">Audi</a><a href="index.html">BMW</a><a href="index.html">Cadillac</a><a href="index.html">Chevrolet</a><a href="index.html">Nissan</a><a href="index.html">McLaren</a><a href="index.html">GMC</a><a href="index.html">Mini Cooper</a><a href="index.html">Fiat</a><a href="index.html">Jetour</a><a href="index.html">Ram</a><a href="index.html">Infinity</a><a href="index.html">Volkswagen</a>
+        </div>
+      </div>
+      <div class="footer-locations">
+        <h4>Locations</h4>
+        <div class="location-tags">
+          <a href="index.html">Dubai Airport</a><a href="index.html">Umm Al Quwain</a><a href="index.html">Fujairah</a><a href="index.html">Satwa</a><a href="index.html">Palm Jumeirah</a><a href="index.html">JBR</a><a href="index.html">Abu Hail</a><a href="index.html">Sheikh Zayed Road</a><a href="index.html">Silicon Oasis</a><a href="index.html">Discovery Gardens</a><a href="index.html">Al Nahda</a><a href="index.html">Al Qusais</a><a href="index.html">Al Quoz</a><a href="index.html">Bur Dubai</a><a href="index.html">Al Karama</a><a href="index.html">Al Barsha</a><a href="index.html">JLT</a><a href="index.html">Business Bay</a><a href="index.html">International City</a><a href="index.html">Dubai Mall</a><a href="index.html">Mall of the Emirates</a><a href="index.html">Dubai Marina</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-google"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 MasterKey Rent A Car. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/971581073598" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
